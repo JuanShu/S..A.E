@@ -441,7 +441,7 @@ MENU STYLE
 
 .menu {
 
-  width: auto;
+  width: 100%;
 
 }
 
@@ -454,8 +454,9 @@ MENU STYLE
 
 .pie {
 
+  position: relative;
   width: 100%;
-  display: block;
+  height: auto;
 
 }
 
@@ -505,25 +506,25 @@ SECTION */
 
 #seguropopular {
 
-  width: 30%;
+  width: 40%;
   padding-top: 2%;
-  padding-left: 37%;
+  padding-left: 31%;
+  margin: 0 auto;
+  transition: all 1500ms ease;
 }
 
 #sae {
-  margin-top: 2%;
-  text-align: center;
-  font-size: 1.3em;
+  font-size: 120%;
   color: #71686b;
   font-family: serif;
+  text-align: center;
+  margin-top: 20px;
 }
 
-#ingreso {
+.ingreso_index {
 
   position: relative;
-  margin-left: 43%;
-  margin-top: 4%;
-
+  margin-top: 1%;
 }
 
 #ingresar_btn {
@@ -531,14 +532,29 @@ SECTION */
   background-color: #0f7949;
   color: #ffffff;
   font-size: 1.5em;
-  position: relative;
-  margin-top: 5%;
   padding: 1% 5% 1% 5%;
+  margin-top: 2%;
+  border-radius: 15px;
+  transition: all 1500ms ease;
+}
 
+#header_index{
+  width: 90%;
+  height: 240px;
+  margin: auto;
+}
+
+#section_index{
+  position: relative;
+  width: 100%;
+  height: 150px;
+  margin: 3% auto;
+  transition: all 1500ms ease;
 }
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 FOOTER*/
+
 
 #engrandelogo {
 

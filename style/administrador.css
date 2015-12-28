@@ -441,7 +441,7 @@ MENU STYLE
 
 .menu {
 
-  width: 100%;
+  width: auto;
 
 }
 
@@ -511,14 +511,12 @@ SECTION */
   padding-bottom: 2%;
 }
 
-#incidencias {
+#img_administrador {
 
   position: relative;
   display: inline-block;
-  width: 17%;
-  margin-top: 1.5%;
+  width: 30%;
   margin-left: 28%;
-
 }
 
 #inci{
@@ -536,18 +534,18 @@ SECTION */
   margin-top: -8%;
 }
 
-#inci_pie{ 
+#administrador_pie{ 
   position: relative;
   display: inline-block;
   color: #af0304;
-  margin-left: -16%;
+  margin-left: -30%;
+  margin-top: 5%;
   font-family: sans;
   font-style: bolder;
   font-size: 1.5em;
 }
 
 #forminci_btn{
-
 
   color: #0f7949;
   position: relative;
@@ -592,7 +590,7 @@ SECTION */
 }
 
 
-#buscarinci_btn { /* clase general */
+#buscaradmin_btn { /* clase general */
   background-color: #0f7949;
   color: #ffffff;
   display: inline-block;
@@ -604,7 +602,7 @@ SECTION */
 }
 
 
-#buscarinci_btn:hover{
+#buscaradmin_btn:hover{
     background: #f35b5b;
     border-color: #c7c7c7 #c3c3c3 #bebebe;
     background: -moz-linear-gradient(top,  #efefef, #af0304);
@@ -616,7 +614,6 @@ SECTION */
 }
 
 
-
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 FOOTER*/
@@ -625,7 +622,7 @@ FOOTER*/
 
   width: 7%;
   margin-left: 1%;
-  margin-top: 5%;
+  margin-top: 4%;
 
 }
 #gobiernodelestado {
@@ -633,5 +630,5 @@ FOOTER*/
   width: 14%;
   position: relative;
   margin-left: 1%;
-  margin-top: 5%;
+  margin-top: 4%;
 }

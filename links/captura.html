@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>S.A.E</title>
+	<link rel="stylesheet" type="text/css" href="../style/captura.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<div class="container">
+		<nav class="menu">
+			<img id="isem_nav" src="../imagenes/isem.png">
+			<img id="seguro_nav" src="../imagenes/seguropopular.png">
+			
+			<p id="nav_title">
+				UNIDAD ESTATAL DE PROTECCIÓN SOCIAL EN SALUD </br></br>
+				ARCHIVO DE TRÁMITE DE AFILIUADOS AL</br>
+				SISTEMA DE PROTECCIÓN SOCIAL EN SALUD</br></br>
+				SISTEMA DE AUTOMATIZACIÓN DE EXPEDIENTES</br>
+			</p>
+
+			<img id="grande_nav" src="../imagenes/engrandelogo.png">
+			<img id="edomex_nav" src="../imagenes/gobiernodelestado.png">
+		</nav>
+		<section class="seccion">
+			<table id="tabla_contenido">
+				<td id="lado_izquierdo">
+					<form id="form_folioactual">
+					<label>FOLIO:</label>
+					<input type="text" name="folio" size="10" maxlength="10" placeholder="1511256122" readonly="readonly">
+					<input id="actualizar_folio" type="submit" value="MODIFICAR" />
+					<input id="cancelar_folio" type="submit" value="CANCELAR" />
+					</form>
+
+					<form id="form_capturaizq">
+						<fieldset id="datos_afiliacion">
+							<legend id="lengend_afiliacion">DATOS DE AFILIACIÓN</legend>
+
+							<!--NOMBREEEE -->
+								<label id="segundo_apellido">Segundo Apellido: </label>
+								<label id="primer_apellido">Primer Apellido: </label>
+								<label id="nombre">Nombre: </label>
+								</br>
+								<div id="segundo_apellido_txt"><input type="text" name="folio" size="17" maxlength="20" placeholder="Segundo Apellido" autofocus="autofocus" tabindex="1"></div>
+								<div id="primer_apellido_txt"><input type="text" name="folio" size="17" maxlength="20" placeholder="Primer Apellido" tabindex="2"></div>
+								<div id="nombre_txt"><input type="text" name="folio" size="17" maxlength="20" placeholder="Nombre" tabindex="3"></div>
+
+							<!--POLIZAAAA -->
+
+								<label id="vigencia_poliza">VIGENCIA DE PÓLIZA</label></br>
+								<label id="poliza_inicio">Inicio:</label>
+								<div id="poliza_inicio_txt"><input type="text" name="folio" size="17" maxlength="20" placeholder="Fecha Inicio" tabindex="4"></div>
+								<label id="poliza_fin">Fin:</label>
+								<div id="poliza_fin_txt"><input type="text" name="folio" size="17" maxlength="20" placeholder="Fecha Fin" tabindex="5"></div>
+						</fieldset>
+					</form>
+					
+				</td>
+
+
+				<td id="lado_derecho">
+					
+
+
+				</td>
+			</table>
+		</section>
+	</div>
+</body>
+</html>

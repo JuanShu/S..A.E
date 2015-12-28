@@ -15,29 +15,33 @@
 			<ul>
 				<a href="index.html"><li id="principal">PRINCIPAL</li></a>
 				<a href="links/actividades.html"><li id="actividades">ACTIVIDADES</li></a>
-				<li id="acerca">ACERCA</li>
+				<a href="links/acerca.html"><li id="acerca">ACERCA</li></a>
 			<a href="javascript:window.close()"><li id="salir">SALIR</li></a>
 			</ul>
 		</nav>
 		<section class="seccion">
-		
-			<img id="seguropopular" src="imagenes/seguropopular.png">
+			
+			<div id="header_index">
+				<img id="seguropopular" src="imagenes/seguropopular.png">
 
-			<p id="sae">UNIDAD ESTATAL DE PROTECCIÓN SOCIAL EN SALUD </br>
-			ARCHIVO DE TRÁMITE DE AFILIADOS AL </br>
-			SISTEMAS DE PROTECCIÓN SOCIAL DE SALUD </br>
-			</br>
-			SISTEMA DE AUTOMATIZACIÓN DE EXPEDIENTES
-			</p>
-			<form id="ingreso" action="" method="get">
-				<input type="text" name="usuario" size="20" maxlength="10" placeholder="Usuario">
+				<div id="sae">UNIDAD ESTATAL DE PROTECCIÓN SOCIAL EN SALUD </br>
+				ARCHIVO DE TRÁMITE DE AFILIADOS AL </br>
+				SISTEMAS DE PROTECCIÓN SOCIAL DE SALUD </br>
+				</br>
+				SISTEMA DE AUTOMATIZACIÓN DE EXPEDIENTES
+				</div>
+			</div>
+			<div align="center" id="section_index">
+				<form action="links/actividades.html" method="get">
+				<input class="ingreso_index" type="text" name="usuario" size="20" maxlength="10" placeholder="Usuario">
 				<br />
 				<br />
-				<input type="password" name="pass" size="20" maxlength="10" placeholder="Contraseña">
+				<input class="ingreso_index" type="password" name="pass" size="20" maxlength="10" placeholder="Contraseña">
 				<br />
 				<br />
 				<input id="ingresar_btn" type="submit" value="INGRESAR" />
-			</form>
+				</form>
+			</div>	
 		</section>
 		<footer class="pie">
 			<img id="engrandelogo" src="imagenes/engrandelogo.png">

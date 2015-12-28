@@ -441,7 +441,7 @@ MENU STYLE
 
 .menu {
 
-  width: 100%;
+  width: auto;
 
 }
 
@@ -511,14 +511,13 @@ SECTION */
   padding-bottom: 2%;
 }
 
-#incidencias {
+#img_question {
 
-  position: relative;
-  display: inline-block;
-  width: 17%;
-  margin-top: 1.5%;
-  margin-left: 28%;
-
+  position: absolute;
+  width: 20%;
+  margin-top: 10%;
+  margin-left: -50%;
+  margin-bottom: 1%;
 }
 
 #inci{
@@ -536,18 +535,38 @@ SECTION */
   margin-top: -8%;
 }
 
-#inci_pie{ 
+#acerca_pie{ 
+  
   position: relative;
   display: inline-block;
   color: #af0304;
-  margin-left: -16%;
+  margin-left: 19%;
+  margin-top: 17%;
   font-family: sans;
   font-style: bolder;
   font-size: 1.5em;
 }
 
-#forminci_btn{
+#acerca_copy{ 
+  position: relative;
+  display: inline-block;
+  color: #0f7949;
+  margin-left: 1%;
+  font-family: sans;
+  font-style: bolder;
+  font-size: 2em;
+}
+.acerca_leyenda {
+  position: relative;
+  display: inline-block;
+  color: #000000;
+  margin-left: 10%;
+  font-family: sans;
+  font-style: bolder;
+  font-size: 1em;
+}
 
+#forminci_btn{
 
   color: #0f7949;
   position: relative;
@@ -591,30 +610,15 @@ SECTION */
   display: inline;
 }
 
+#buscarnuevos_btn {
 
-#buscarinci_btn { /* clase general */
   background-color: #0f7949;
   color: #ffffff;
-  display: inline-block;
-  font: bold 1em HelveticaNeue, Arial;
-  padding: 5% 25% 5% 25%;
-  text-decoration: none;
-  border-radius: 10px;
+  font-size: 1.5em;
   position: relative;
+  padding: 1% 5% 1% 5%;
+
 }
-
-
-#buscarinci_btn:hover{
-    background: #f35b5b;
-    border-color: #c7c7c7 #c3c3c3 #bebebe;
-    background: -moz-linear-gradient(top,  #efefef, #af0304);
-    background: -webkit-linear-gradient(top,  #efefef, #af0304);
-    background: -o-linear-gradient(top,  #efefef, #af0304);
-    background: -ms-linear-gradient(top,  #efefef, #af0304);
-    background: linear-gradient(top,  #efefef, #af0304)af0304;
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#f8f8f8');
-}
-
 
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -625,7 +629,6 @@ FOOTER*/
 
   width: 7%;
   margin-left: 1%;
-  margin-top: 5%;
 
 }
 #gobiernodelestado {
@@ -633,5 +636,4 @@ FOOTER*/
   width: 14%;
   position: relative;
   margin-left: 1%;
-  margin-top: 5%;
 }

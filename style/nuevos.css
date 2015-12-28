@@ -441,7 +441,7 @@ MENU STYLE
 
 .menu {
 
-  width: auto;
+  width: 100%;
 
 }
 
@@ -511,14 +511,14 @@ SECTION */
   padding-bottom: 2%;
 }
 
-#incidencias {
+#img_nuevos {
 
   position: relative;
   display: inline-block;
   width: 17%;
   margin-top: 1.5%;
   margin-left: 28%;
-
+  margin-bottom: 1%;
 }
 
 #inci{
@@ -536,11 +536,12 @@ SECTION */
   margin-top: -8%;
 }
 
-#inci_pie{ 
+#nuevos_pie{ 
   position: relative;
   display: inline-block;
-  color: #0f7949;
-  margin-left: -16%;
+  color: #af0304;
+  margin-left: -14%;
+  margin-top: 17%;
   font-family: sans;
   font-style: bolder;
   font-size: 1.5em;
@@ -590,6 +591,29 @@ SECTION */
   display: inline;
 }
 
+
+#buscarnuevos_btn { /* clase general */
+  background-color: #0f7949;
+  color: #ffffff;
+  display: inline-block;
+  font: bold 1em HelveticaNeue, Arial;
+  padding: 5% 25% 5% 25%;
+  text-decoration: none;
+  border-radius: 10px;
+  position: relative;
+}
+
+
+#buscarnuevos_btn:hover{
+    background: #f35b5b;
+    border-color: #c7c7c7 #c3c3c3 #bebebe;
+    background: -moz-linear-gradient(top,  #efefef, #af0304);
+    background: -webkit-linear-gradient(top,  #efefef, #af0304);
+    background: -o-linear-gradient(top,  #efefef, #af0304);
+    background: -ms-linear-gradient(top,  #efefef, #af0304);
+    background: linear-gradient(top,  #efefef, #af0304)af0304;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#f8f8f8');
+}
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -329,7 +329,7 @@ input {
  * Firefox's implementation doesn't respect box-sizing, padding, or width.
  *
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10. Realizado Por: j u a n   G o n z a l e z    p o r c a y o :D;
  */
 
 input[type="checkbox"],
@@ -459,17 +459,48 @@ MENU STYLE
 
 }
 
-nav img {
+#isem_nav {
 
   width: 10%;
   display: inline-block;
-  padding: .5% 10% .5% 8%;
+  padding-bottom: 2%;
 
+}
+
+#seguro_nav {
+
+  width: 15%;
+  display: inline-block;
+  padding-bottom: 1.5%;
+  padding-right: 13%;
+}
+
+#grande_nav {
+
+  width: 7%;
+  display: inline-block;
+  padding-left: 15%;
+
+}
+
+#edomex_nav {
+
+  width: 13%;
+  display: inline-block;
+
+}
+
+#nav_title{
+
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  color: #ffffff;
 }
 
 nav {
 
-  background-color: #af0304;
+  background-color: #549654;
   width: 100%;
 }
 
@@ -502,109 +533,36 @@ nav ul li {
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 SECTION */
+#tabla_contenido{
 
-#seguropopular {
-
-  width: 30%;
-  padding-top: 3%;
-  padding-left: 36%;
-  padding-bottom: 2%;
+  width: 100%;
 }
 
-#incidencias {
-
-  position: relative;
-  display: inline-block;
-  width: 17%;
-  margin-top: 1.5%;
-  margin-left: 28%;
-
+#lado_izquierdo{
+  width: 50%;
 }
 
-#inci{
-
-  position: relative;
-  display: inline-block;
-  font-family: cursive;
-  margin-left: 2%;
+#lado_derecho{
+  width: 50%;
 }
 
-#tableinci {
-  position: absolute;
-  margin-left: 45%;
-  width: 30%;
-  margin-top: -8%;
+#form_folioactual {
+  padding-top: 2%;
 }
 
-#inci_pie{ 
-  position: relative;
-  display: inline-block;
-  color: #af0304;
-  margin-left: -16%;
-  font-family: sans;
-  font-style: bolder;
-  font-size: 1.5em;
-}
-
-#forminci_btn{
-
-
-  color: #0f7949;
-  position: relative;
-  margin-left: -50%;
-
-}
-#nuevos {
-
-  position: relative;
-  display: inline-block;
-  width: 17%;
-  margin-left: 5%;
-}
-
-#new{
-  
-  position: relative;
-  display: inline-block;
-  font-family: cursive;
-  margin-left: 16%;
-}
-
-#administrador {
-
-  position: relative;
-  display: inline-block;
-  width: 30%;
-  margin-left: 5%;
-}
-
-#admin{
-  
-  position: relative;
-  display: inline-block;
-  font-family: cursive;
-  margin-left: 15%;
-}
-.piedeactividades {
-
-  position: relative;
-  display: inline;
-}
-
-
-#buscarinci_btn { /* clase general */
+#actualizar_folio { /* clase general */
   background-color: #0f7949;
   color: #ffffff;
   display: inline-block;
   font: bold 1em HelveticaNeue, Arial;
-  padding: 5% 25% 5% 25%;
   text-decoration: none;
   border-radius: 10px;
   position: relative;
+  margin-left: 1%;
 }
 
 
-#buscarinci_btn:hover{
+#actualizar_folio:hover{
     background: #f35b5b;
     border-color: #c7c7c7 #c3c3c3 #bebebe;
     background: -moz-linear-gradient(top,  #efefef, #af0304);
@@ -615,23 +573,98 @@ SECTION */
     filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#f8f8f8');
 }
 
+#cancelar_folio { /* clase general */
+  background-color: #0f7949;
+  color: #ffffff;
+  display: inline-block;
+  font: bold 1em HelveticaNeue, Arial;
+  text-decoration: none;
+  border-radius: 10px;
+  position: relative;
+  margin-left: 1%;
+}
 
+
+#cancelar_folio:hover{
+    background: #f35b5b;
+    border-color: #c7c7c7 #c3c3c3 #bebebe;
+    background: -moz-linear-gradient(top,  #efefef, #af0304);
+    background: -webkit-linear-gradient(top,  #efefef, #af0304);
+    background: -o-linear-gradient(top,  #efefef, #af0304);
+    background: -ms-linear-gradient(top,  #efefef, #af0304);
+    background: linear-gradient(top,  #efefef, #af0304)af0304;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#f8f8f8');
+}
+
+/*FORRRRRRRRRRRRRRRRRRRRRRRMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
+
+#form_capturaizq{
+  padding-top: 2%;
+}
+
+#datos_afiliacion{
+
+  border-color: #549654;
+  border-radius: 10px;
+  border-width: 2px;
+}
+
+#lengend_afiliacion{
+
+  font: bold 1em HelveticaNeue, Arial;
+}
+
+#segundo_apellido {
+  padding-right: 15%;
+  
+}
+
+#segundo_apellido_txt{
+  display: inline-block;
+}
+
+#primer_apellido {
+  padding-right: 15%;
+}
+
+#primer_apellido_txt{
+  display: inline-block;
+  padding-left: 7.5%;
+  padding-bottom: 1%;
+}
+
+#nombre {
+  padding-right: 2%;
+  
+}
+
+#nombre_txt{
+  display: inline-block;
+  padding-left: 5%;
+}
+
+/*polizaaaaaaaaaaaaaaaaaaaaaaa*/
+
+#vigencia_poliza{
+  padding-left: 36%;
+  font: bold;
+}
+
+#poliza_inicio{
+  padding-left: 15%;
+}
+
+#poliza_inicio_txt{
+  display: inline-block;
+
+}
+
+#poliza_fin_txt{
+  display: inline-block;
+
+}
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 FOOTER*/
 
-#engrandelogo {
-
-  width: 7%;
-  margin-left: 1%;
-  margin-top: 5%;
-
-}
-#gobiernodelestado {
-
-  width: 14%;
-  position: relative;
-  margin-left: 1%;
-  margin-top: 5%;
-}

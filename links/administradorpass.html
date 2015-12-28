@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>S.A.E</title>
-	<link rel="stylesheet" type="text/css" href="../style/incidencias.css">
+	<link rel="stylesheet" type="text/css" href="../style/administradorpass.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -20,16 +20,19 @@
 			</ul>
 		</nav>
 		<section class="seccion">
-	
 			<img id="seguropopular" src="../imagenes/seguropopular.png">
-			<img id="incidencias" src="../imagenes/incidencias.png">
-			<p id="inci_pie" align="center">INCIDENCIAS</p>
-			<table id="tableinci" border="0" cellpadding="0">
-				<tr align="center">
-					<td><input id="forminci" type="text" name="usuario" size="20" maxlength="10" placeholder="Folio"></td>
-					<td><a href="captura.html"><input id="buscarinci_btn" type="submit" value="BUSCAR" /></a></td>
-				</tr>
-			</table>
+			<p id="capturista">CAPTURISTA:</p>
+			<img id="img_administrador" src="../imagenes/administrador.png">
+			<p id="administrador_pie">ADMINISTRADOR</p>
+			<form id="ingresoadmin" action="administrador.html" method="get">
+				<input type="text" name="usuario" size="20" maxlength="10" placeholder="Usuario">
+				<br />
+				<br />
+				<input type="password" name="pass" size="20" maxlength="10" placeholder="Contraseña">
+				<br />
+				<br />
+				<a href="administrador.html"><input id="ingresaradmin_btn" type="submit" value="INGRESAR" /></a>
+			</form>
 		</section>
 		<footer class="pie">
 			<img id="engrandelogo" src="../imagenes/engrandelogo.png">
