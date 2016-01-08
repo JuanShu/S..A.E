@@ -601,18 +601,13 @@ SECTION */
   text-decoration: none;
   border-radius: 10px;
   position: relative;
+  transition: all 1500ms ease;
 }
 
 
 #buscarinci_btn:hover{
-    background: #f35b5b;
-    border-color: #c7c7c7 #c3c3c3 #bebebe;
-    background: -moz-linear-gradient(top,  #efefef, #af0304);
-    background: -webkit-linear-gradient(top,  #efefef, #af0304);
-    background: -o-linear-gradient(top,  #efefef, #af0304);
-    background: -ms-linear-gradient(top,  #efefef, #af0304);
-    background: linear-gradient(top,  #efefef, #af0304)af0304;
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#f8f8f8');
+     background-color: #ffffff;
+     color: #0f7949; 
 }
 
 

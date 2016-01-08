@@ -29,7 +29,7 @@
 					<form id="form_folioactual">
 					<label>FOLIO:</label>
 					<input type="text" name="folio" size="10" maxlength="10" placeholder="1511256122" readonly="readonly">
-					<a href="index.html"><input id="actualizar_folio" type="submit" value="MODIFICAR"  tabindex="35" /></a>
+					<a href="index.html"><input id="actualizar_folio" accesskey="Ctrl+q" type="submit" value="MODIFICAR"  tabindex="35" /></a>
 					<input id="cancelar_folio" type="submit" value="CANCELAR" />
 					</form>
 
@@ -47,7 +47,7 @@
 								<div id="nombre_txt"><input id="nombre_color" type="text" name="nombre_form" size="17" maxlength="20" placeholder="Nombre(s)" tabindex="3"></div>
 
 							<!--POLIZAAAA -->
-							<fieldset>
+							<fieldset id="poliza_fieldset">
 							<legend id="vigencia_poliza">VIGENCIA DE PÓLIZA</legend>
 								<label id="poliza_inicio">Inicio:</label>
 								<div id="poliza_inicio_txt"><input id="polizainicio_color" type="text" name="pol_inicio" size="17" maxlength="10" placeholder="AAAA-MM-DD" tabindex="4"></div>
@@ -203,19 +203,20 @@
 								<legend>ESTATUS DE LA PÓLIZA</legend>
 									<input type="radio" name="poliza" value="Sin Ninguna Poliza" tabindex="13">Sin Ninguna Póliza</br>
 									<input type="radio" name="poliza" value="Poliza Anterior" tabindex="14">Póliza Anterior</br>
+									<input type="radio" name="poliza" value="Sin Ninguna Poliza" tabindex="17">Póliza Vigente con Firma no Válida
 									<input type="radio" name="poliza" value="Sin Ninguna Poliza" tabindex="15">Póliza Vigente SIN FIRMA</br>
 									<input type="radio" name="poliza" value="Sin Ninguna Poliza" tabindex="16">Póliza Vigente FIRMADA</br>
-									<input type="radio" name="poliza" value="Sin Ninguna Poliza" tabindex="17">Póliza Vigente con Firma no Válida
+									
 
 							</fieldset>
 
 							<fieldset id="right_cecasoeh">
 								<legend >ESTATUS DE LA CECASOEH</legend>
-									<input type="radio" name="cecasoeh" value="Sin Ninguna Poliza" tabindex="18">Sin Ninguna Póliza</br>
-									<input type="radio" name="cecasoeh" value="Poliza Anterior" tabindex="19">Póliza Anterior</br>
-									<input type="radio" name="cecasoeh" value="Sin Ninguna Poliza" tabindex="20">Póliza Vigente SIN FIRMA</br>
-									<input type="radio" name="cecasoeh" value="Sin Ninguna Poliza" tabindex="21">Póliza Vigente FIRMADA</br>
-									<input type="radio" name="cecasoeh" value="Sin Ninguna Poliza" tabindex="22">Póliza Vigente con Firma no Válida
+									<input type="radio" name="cecasoeh" value="Sin Ninguna Poliza" tabindex="18">Sin Ninguna Cecasoeh</br>
+									<input type="radio" name="cecasoeh" value="Poliza Anterior" tabindex="19">Cecasoeh Anterior</br>
+									<input type="radio" name="cecasoeh" value="Sin Ninguna Poliza" tabindex="22">Cecasoeh Vigente con Firma N/V</br>
+									<input type="radio" name="cecasoeh" value="Sin Ninguna Poliza" tabindex="20">Cecasoeh Vigente SIN FIRMA</br>
+									<input type="radio" name="cecasoeh" value="Sin Ninguna Poliza" tabindex="21">Cecasoeh Vigente FIRMADA
 
 							</fieldset>
 						</fieldset>
@@ -252,16 +253,16 @@
 									</select></div>
 								</br>
 								<label id="benef_curp">Beneficiarios Con CURP: </label>
-								<div id="benef_curp_txt"><input id="benef_curp_color" type="text" name="benef_curp_form" size="20" maxlength="40" placeholder="Ej.1-2-3-4-5" tabindex="24"></div>
+								<div id="benef_curp_txt"><input id="benef_curp_color" type="text" name="benef_curp_form" size="20" maxlength="50" placeholder="Ej.1-2-3-4-5" tabindex="24"></div>
 								</br>
 								<label id="benef_acta">Beneficiarios Con Acta: </label>
-								<div id="benef_acta_txt"><input id="benef_acta_color" type="text" name="benef_acta_form" size="20" maxlength="40" placeholder="Ej.1-2-3-4-5" tabindex="25"></div>
+								<div id="benef_acta_txt"><input id="benef_acta_color" type="text" name="benef_acta_form" size="20" maxlength="50" placeholder="Ej.1-2-3-4-5" tabindex="25"></div>
 								</br>
 								<label id="benef_falt">Beneficiarios Faltante de Acta/CURP: </label>
-								<div id="benef_falt_txt"><input id="benef_falt_color" type="text" name="benef_falt_form" size="20" maxlength="40" placeholder="Ej.1-2-3-4-5" tabindex="26"></div>
+								<div id="benef_falt_txt"><input id="benef_falt_color" type="text" name="benef_falt_form" size="20" maxlength="50" placeholder="Ej.1-2-3-4-5" tabindex="26"></div>
 								</br>
 								<label id="benef_falt_estudios">Beneficiarios Faltante de Comprobante de Estudios: </label>
-								<div id="benef_falt_estudios_txt"><input id="benef_falt_estudios_color" type="text" name="benef_falt_estudios_form" size="20" maxlength="40" placeholder="Ej.1-2-3-4-5" tabindex="27"></div>
+								<div id="benef_falt_estudios_txt"><input id="benef_falt_estudios_color" type="text" name="benef_falt_estudios_form" size="20" maxlength="50" placeholder="Ej.1-2-3-4-5" tabindex="27"></div>
 								</br>
 
 								<label id="identif_titular">Tipo de Identificación Titular: </label>
@@ -283,7 +284,7 @@
 										<option value="IFE INCOMPLETA">13-IFE INCOMPLETA</option>
 									</select></div>
 
-								<fieldset>
+								<fieldset id="comprobante_fieldset">
 									
 									<legend>COMPROBANTE FAMILIAR</legend>
 									

@@ -538,6 +538,11 @@ SECTION */
   transition: all 1500ms ease;
 }
 
+#ingresar_btn:hover {
+  background-color: #ffffff;
+  color: #0f7949;
+}
+
 #header_index{
   width: 90%;
   height: 240px;

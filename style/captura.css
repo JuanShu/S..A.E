@@ -609,7 +609,7 @@ SECTION */
 #datos_afiliacion{
 
   border-color: #549654;
-  border-radius: 10px;
+  border-radius: 30px 0px 30px 0px;
   border-width: 2px;
   margin: 0% 0% 2% 0%;
 }
@@ -661,8 +661,12 @@ SECTION */
 }
 /*polizaaaaaaaaaaaaaaaaaaaaaaa*/
 
-#vigencia_poliza{
-  font: bold;
+#poliza_fieldset{
+
+  border-color: #000000;
+  border-radius: 10px;
+  border-width: 1px;
+  margin: 0% 0% 2% 0%;
 }
 
 #poliza_inicio{
@@ -709,12 +713,13 @@ SECTION */
 }
 
 #juris{
-  padding-left: 28%;
+  margin-left: 28%;
 }
 
 #juris_txt{
   display: inline-block;
   padding-bottom: 1%;
+  margin-left: 2.8%;
 }
 
 #juris_color{
@@ -783,7 +788,7 @@ SECTION */
 #documentacion_field{
   width: 95.5%;
   border-color: #549654;
-  border-radius: 10px;
+  border-radius: 30px 0px 30px 0px;
   border-width: 2px;
 }
 
@@ -798,7 +803,7 @@ SECTION */
 
 #carta_derech{
   display: inline-block;
-  margin-left: 8%;
+  margin-left: 6.5%;
   margin-bottom: 1%;
 
 }
@@ -806,11 +811,19 @@ SECTION */
 #left_poliza{
   width: 45%;
   display: inline-block;
+  border-color: #000000;
+  border-radius: 10px;
+  border-width: 1px;
+  margin: 0% 0% 2% 0%;
 }
 
 #right_cecasoeh{
   width: 45%;
   display: inline-block;
+   border-color: #000000;
+  border-radius: 10px;
+  border-width: 1px;
+  margin: 0% 0% 2% 0%;
 }
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -824,7 +837,7 @@ RIGTH SIDEEEEEEEEEEEEEEEEEE*/
 #documentaciondos_field{
   width: 95.5%;
   border-color: #549654;
-  border-radius: 10px;
+  border-radius: 30px 0px 30px 0px;
   border-width: 2px;
 }
 
@@ -890,8 +903,16 @@ RIGTH SIDEEEEEEEEEEEEEEEEEE*/
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 */
+#comprobante_fieldset{
+  border-color: #000000;
+  border-radius: 10px;
+  border-width: 1px;
+  margin: 0% 0% 2% 0%;
+  padding: 2.6%;
+}
+
 #oportunidades{
-  margin-left: 15%;
+  margin-left: 14.7%;
 }
 #oportunidades_txt{
   display: inline-block;
