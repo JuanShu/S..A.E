@@ -17,6 +17,7 @@ html {
  */
 
 body {
+  width: 100%;
   background-color: #d6d6d6;
   margin: auto;
 }
@@ -434,8 +435,8 @@ MENU STYLE
 
 .container {
   margin: auto;
-  width: 95%;
-  height: 95%;
+  width: 100%;
+  height: 100%;
 
 }
 
@@ -511,6 +512,7 @@ SECTION */
   padding-bottom: 2%;
 }
 
+
 #capturista{
 
   position: relative;
@@ -521,6 +523,14 @@ SECTION */
   font-family: sans;
   font-style: bolder;
   font-size: 1.5em;
+
+}
+
+#capturista_txt{
+  display: inline
+  margin-top: 5%;
+  margin-left: 20px;
+  background-color: #FFFFFF;
 
 }
 

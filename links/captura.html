@@ -14,8 +14,8 @@
 			<img id="seguro_nav" src="../imagenes/seguropopular.png">
 			
 			<p id="nav_title">
-				UNIDAD ESTATAL DE PROTECCIÓN SOCIAL EN SALUD </br></br>
-				ARCHIVO DE TRÁMITE DE AFILIUADOS AL</br>
+				UNIDAD ESTATAL DE PROTECCIÓN SOCIAL EN SALUD</br></br>
+				ARCHIVO DE TRÁMITE DE AFILIADOS AL</br>
 				SISTEMA DE PROTECCIÓN SOCIAL EN SALUD</br></br>
 				SISTEMA DE AUTOMATIZACIÓN DE EXPEDIENTES</br>
 			</p>
@@ -38,21 +38,21 @@
 							<legend id="lengend_afiliacion">DATOS DE AFILIACIÓN</legend>
 
 							<!--NOMBREEEE -->
-								<label id="segundo_apellido">Segundo Apellido: </label>
 								<label id="primer_apellido">Primer Apellido: </label>
+								<label id="segundo_apellido">Segundo Apellido: </label>
 								<label id="nombre">Nombre(s): </label>
 								</br>
-								<div id="segundo_apellido_txt"><input id="segundoapellido_color" type="text" name="seg_apellido" size="17" maxlength="20" placeholder="Segundo Apellido" autofocus="autofocus" tabindex="1"></div>
-								<div id="primer_apellido_txt"><input id="primerapellido_color" type="text" name="prim_apellido" size="17" maxlength="20" placeholder="Primer Apellido" tabindex="2"></div>
-								<div id="nombre_txt"><input id="nombre_color" type="text" name="nombre_form" size="17" maxlength="20" placeholder="Nombre(s)" tabindex="3"></div>
+								<div id="primer_apellido_txt"><input id="primerapellido_color" type="text" name="primapellido" size="17" maxlength="50" placeholder="Primer Apellido" autofocus="autofocus" tabindex="1"></div>
+								<div id="segundo_apellido_txt"><input id="segundoapellido_color" type="text" name="segapellido" size="17" maxlength="50" placeholder="Segundo Apellido" tabindex="2"></div>
+								<div id="nombre_txt"><input id="nombre_color" type="text" name="nombreform" size="17" maxlength="50" placeholder="Nombre(s)" tabindex="3"></div>
 
 							<!--POLIZAAAA -->
 							<fieldset id="poliza_fieldset">
 							<legend id="vigencia_poliza">VIGENCIA DE PÓLIZA</legend>
 								<label id="poliza_inicio">Inicio:</label>
-								<div id="poliza_inicio_txt"><input id="polizainicio_color" type="text" name="pol_inicio" size="17" maxlength="10" placeholder="AAAA-MM-DD" tabindex="4"></div>
+								<div id="poliza_inicio_txt"><input id="polizainicio_color" type="text" name="polinicio" size="17" maxlength="10" placeholder="AAAA-MM-DD" tabindex="4"></div>
 								<label id="poliza_fin">Fin:</label>
-								<div id="poliza_fin_txt"><input id="polizafin_color" type="text" name="pol_fin" size="17" maxlength="10" placeholder="AAAA-MM-DD" tabindex="5"></div>
+								<div id="poliza_fin_txt"><input id="polizafin_color" type="text" name="polfin" size="17" maxlength="10" placeholder="AAAA-MM-DD" tabindex="5"></div>
 							</fieldset>
 
 							<!--MODULOOOOO -->
@@ -60,16 +60,16 @@
 								<label id="modulo">Modulo:</label>
 								<div id="modulo_txt"><input id="modulo_color" type="text" name="modulo" size="1" maxlength="3" placeholder="048" readonly="readonly"></div>
 								<label id="municipio">Municipio:</label>
-								<div id="municipio_txt"><input id="municipio_color" type="text" name="municipio" size="30" maxlength="40" placeholder="057 NAUCALPAN DE JUAREZ" readonly="readonly"></div>
+								<div id="municipio_txt"><input id="municipio_color" type="text" name="municipio" size="30" maxlength="50" placeholder="057 NAUCALPAN DE JUAREZ" readonly="readonly"></div>
 								<label id="juris">Jurisdicción:</label>
-								<div id="juris_txt"><input id="juris_color" type="text" name="juris" size="20" maxlength="40" placeholder="12 NAUCALPAN" readonly="readonly"></div>
+								<div id="juris_txt"><input id="juris_color" type="text" name="juris" size="20" maxlength="50" placeholder="12 NAUCALPAN" readonly="readonly"></div>
 
 							<!--INTEGRANTESSSS -->
 								</br>
 
 								<label>No.Integrantes: </label>
 								<div id="no_integ">
-									<select id="nointegran_color" name="no_integrantes" tabindex="6">
+									<select id="nointegran_color" name="numinteg" tabindex="6">
 										<option value="1">1</option>
 										<option value="2">2</option>
 										<option value="3">3</option>
@@ -117,7 +117,7 @@
 
 								<label id="no_benef_label">No.Beneficiarios: </label>
 								<div id="no_benef">
-									<select id="nobenef_color" name="no_beneficiarios" tabindex="7">
+									<select id="nobenef_color" name="numbenef" tabindex="7">
 										<option value="1">1</option>
 										<option value="2">2</option>
 										<option value="3">3</option>
@@ -165,7 +165,7 @@
 
 								<label id="no_smng_label">No.Beneficiarios SMNG: </label>
 								<div id="no_smng">
-									<select id="nosmng_color" name="no_benef_smng" tabindex="8">
+									<select id="nosmng_color" name="numsmng" tabindex="8">
 										<option value="">-</option>
 										<option value="1">1</option>
 										<option value="2">2</option>
@@ -183,40 +183,40 @@
 
 								<label id="tipo_familia">Tipo de Familia:</label>
 								<div id="tipo_familia_txt">
-									<select id="tipofamilia_color" name="tipo_familia_select" tabindex="9">
-										<option value="POB ABIERTA">1-POB Abierta</option>
-										<option value="OPORTUNIDADES">2-Oportunidades</option>
+									<select id="tipofamilia_color" name="tipofamilia" tabindex="9">
+										<option value="1">1-POB Abierta</option>
+										<option value="2">2-Oportunidades</option>
 									</select>
 								</div>
 								<label id="fecha_solicitud">Fecha de Solicitud:</label>
-								<div id="fecha_solicitud_txt"><input id="fechasolicitud_color" type="text" name="pol_fin" size="17" maxlength="10" placeholder="AAAA-MM-DD" tabindex="10"></div>
+								<div id="fecha_solicitud_txt"><input id="fechasolicitud_color" type="text" name="fechasoli" size="17" maxlength="10" placeholder="AAAA-MM-DD" tabindex="10"></div>
 						</fieldset>
 
 						<fieldset id="documentacion_field">
 							<legend id="documentacion_legend">DOCUMENTACIÓN</legend>
 							<table>
-									<div id="expediente_incomp"><input type="checkbox" name="exp_incompleto" value="expediente_incompleto" accesskey="[Alt]+g" tabindex="11">Formato de Expediente Incompleto</div>
-									<div id="carta_derech"><input type="checkbox" name="carta_derechos" value="carta_de_derechos" tabindex="12">Acuse de carta de Derechos</div>
+									<div id="expediente_incomp"><input type="checkbox" name="expincompleto" value="1" accesskey="[Alt]+g" tabindex="11">Formato de Expediente Incompleto</div>
+									<div id="carta_derech"><input type="checkbox" name="cartadere" value="1" tabindex="12">Acuse de carta de Derechos</div>
 							</table>
 
 							<fieldset id="left_poliza">
 								<legend>ESTATUS DE LA PÓLIZA</legend>
-									<input type="radio" name="poliza" value="Sin Ninguna Poliza" tabindex="13">Sin Ninguna Póliza</br>
-									<input type="radio" name="poliza" value="Poliza Anterior" tabindex="14">Póliza Anterior</br>
-									<input type="radio" name="poliza" value="Sin Ninguna Poliza" tabindex="17">Póliza Vigente con Firma no Válida
-									<input type="radio" name="poliza" value="Sin Ninguna Poliza" tabindex="15">Póliza Vigente SIN FIRMA</br>
-									<input type="radio" name="poliza" value="Sin Ninguna Poliza" tabindex="16">Póliza Vigente FIRMADA</br>
+									<input type="radio" name="poliza" value="1" tabindex="13">Sin Ninguna Póliza</br>
+									<input type="radio" name="poliza" value="2" tabindex="14">Póliza Anterior</br>
+									<input type="radio" name="poliza" value="5" tabindex="17">Póliza Vigente con Firma no Válida</br>
+									<input type="radio" name="poliza" value="3" tabindex="15">Póliza Vigente SIN FIRMA</br>
+									<input type="radio" name="poliza" value="4" tabindex="16">Póliza Vigente FIRMADA</br>
 									
 
 							</fieldset>
 
 							<fieldset id="right_cecasoeh">
 								<legend >ESTATUS DE LA CECASOEH</legend>
-									<input type="radio" name="cecasoeh" value="Sin Ninguna Poliza" tabindex="18">Sin Ninguna Cecasoeh</br>
-									<input type="radio" name="cecasoeh" value="Poliza Anterior" tabindex="19">Cecasoeh Anterior</br>
-									<input type="radio" name="cecasoeh" value="Sin Ninguna Poliza" tabindex="22">Cecasoeh Vigente con Firma N/V</br>
-									<input type="radio" name="cecasoeh" value="Sin Ninguna Poliza" tabindex="20">Cecasoeh Vigente SIN FIRMA</br>
-									<input type="radio" name="cecasoeh" value="Sin Ninguna Poliza" tabindex="21">Cecasoeh Vigente FIRMADA
+									<input type="radio" name="cecasoeh" value="1" tabindex="18">Sin Ninguna Cecasoeh</br>
+									<input type="radio" name="cecasoeh" value="2" tabindex="19">Cecasoeh Anterior</br>
+									<input type="radio" name="cecasoeh" value="5" tabindex="22">Cecasoeh Vigente con Firma N/V</br>
+									<input type="radio" name="cecasoeh" value="3" tabindex="20">Cecasoeh Vigente SIN FIRMA</br>
+									<input type="radio" name="cecasoeh" value="4" tabindex="21">Cecasoeh Vigente FIRMADA
 
 							</fieldset>
 						</fieldset>
@@ -229,7 +229,7 @@
 					
 					<form id="form_capturista">
 					<label>CAPTURISTA:</label>
-					<input type="text" name="capturista" size="20" maxlength="20" placeholder="Maria Robles Gutierrez" readonly="readonly">
+					<input type="text" name="capturista" size="20" maxlength="35" placeholder="Maria Robles Gutierrez" readonly="readonly">
 					</form>
 					<form id="form_capturaizq">
 						<fieldset id="documentaciondos_field">
@@ -238,50 +238,50 @@
 							<!--COMPROBANTES CURPS ACTAS -->
 								<label id="compro_domicilio">Comprobante de Domicilio: </label>
 								<div id="compro_domicilio_txt">
-									<select id="compro_domicilio_color" name="			tipo_familia_select" tabindex="23">
-										<option value="NO PRESENTO">0-NO PRESENTÓ</option>
-										<option value="COMPROBANTE DE DOMICILIO VENCIDO">1-COMPROBANTE DE DOMICILIO VENCIDO</option>
-										<option value="DOCUMENTO NO VALIDO">2-DOCUMENTO NO VALIDO</option>
-										<option value="CREDENCIAL DE ELECTOR">4-CREDENCIAL DE ELECTOR</option>
-										<option value="PAGO DE AGUA">5-PAGO DE AGUA</option>
-										<option value="OPORTUNIDADES">6-PAGO PREDIAL</option>
-										<option value="OPORTUNIDADES">7-RECIBO DE LUZ</option>
-										<option value="RECIBO DE TELÉFONO FIJO">8-RECIBO DE TELÉFONO FIJO</option>
-										<option value="ACTA ANTE DOS TESTIGOS">9-ACTA ANTE DOS TESTIGOS</option>
-										<option value="CARTA DE AUTORIDAD LOCAL">10-CARTA DE AUTORIDAD LOCAL</option>
-										<option value="ACTA ASAMBLEA EJIDAL O COMUNAL">11-ACTA ASAMBLEA EJIDAL O COMUNAL</option>
+									<select id="compro_domicilio_color" name="comdom" tabindex="23">
+										<option value="0">0-NO PRESENTÓ</option>
+										<option value="1">1-COMPROBANTE DE DOMICILIO VENCIDO</option>
+										<option value="2">2-DOCUMENTO NO VALIDO</option>
+										<option value="4">4-CREDENCIAL DE ELECTOR</option>
+										<option value="5">5-PAGO DE AGUA</option>
+										<option value="6">6-PAGO PREDIAL</option>
+										<option value="7">7-RECIBO DE LUZ</option>
+										<option value="8">8-RECIBO DE TELÉFONO FIJO</option>
+										<option value="9">9-ACTA ANTE DOS TESTIGOS</option>
+										<option value="10">10-CARTA DE AUTORIDAD LOCAL</option>
+										<option value="11">11-ACTA ASAMBLEA EJIDAL O COMUNAL</option>
 									</select></div>
 								</br>
 								<label id="benef_curp">Beneficiarios Con CURP: </label>
-								<div id="benef_curp_txt"><input id="benef_curp_color" type="text" name="benef_curp_form" size="20" maxlength="50" placeholder="Ej.1-2-3-4-5" tabindex="24"></div>
+								<div id="benef_curp_txt"><input id="benef_curp_color" type="text" name="benefcurp" size="20" maxlength="50" placeholder="Ej.1-2-3-4-5" tabindex="24"></div>
 								</br>
 								<label id="benef_acta">Beneficiarios Con Acta: </label>
-								<div id="benef_acta_txt"><input id="benef_acta_color" type="text" name="benef_acta_form" size="20" maxlength="50" placeholder="Ej.1-2-3-4-5" tabindex="25"></div>
+								<div id="benef_acta_txt"><input id="benef_acta_color" type="text" name="benefacta" size="20" maxlength="50" placeholder="Ej.1-2-3-4-5" tabindex="25"></div>
 								</br>
 								<label id="benef_falt">Beneficiarios Faltante de Acta/CURP: </label>
-								<div id="benef_falt_txt"><input id="benef_falt_color" type="text" name="benef_falt_form" size="20" maxlength="50" placeholder="Ej.1-2-3-4-5" tabindex="26"></div>
+								<div id="benef_falt_txt"><input id="benef_falt_color" type="text" name="beneffalt" size="20" maxlength="50" placeholder="Ej.1-2-3-4-5" tabindex="26"></div>
 								</br>
 								<label id="benef_falt_estudios">Beneficiarios Faltante de Comprobante de Estudios: </label>
-								<div id="benef_falt_estudios_txt"><input id="benef_falt_estudios_color" type="text" name="benef_falt_estudios_form" size="20" maxlength="50" placeholder="Ej.1-2-3-4-5" tabindex="27"></div>
+								<div id="benef_falt_estudios_txt"><input id="benef_falt_estudios_color" type="text" name="faltest" size="20" maxlength="50" placeholder="Ej.1-2-3-4-5" tabindex="27"></div>
 								</br>
 
 								<label id="identif_titular">Tipo de Identificación Titular: </label>
 								<div id="identif_titular_txt">
-									<select id="identif_titular_color" name="			identif_titular_select" tabindex="28">
-										<option value="NO PRESENTO">0-NO PRESENTÓ</option>
-										<option value="COMPROBANTE IDENTIDAD VENCIDO">1-COMPROBANTE IDENTIDAD VENCIDO</option>
-										<option value="DOCUMENTO NO VALIDO">2-DOCUMENTO NO VALIDO</option>
-										<option value="CREDENCIAL DE ELECTOR">3-CREDENCIAL DE ELECTOR</option>
-										<option value="CARTILLA DEL SERVICIO MILITAR">4-CARTILLA DEL SERVICIO MILITAR</option>
-										<option value="CEDULA PROFESIONAL">5-CÉDULA PROFESIONAL</option>
-										<option value="LICENCIA DE CONDUCIR">6-LICENCIA DE CONDUCIR</option>
-										<option value="PASAPORTE">7-PASAPORTE</option>
-										<option value="CARTA DE AUTORIDAD LOCAL">8-CARTA DE AUTORIDAD LOCAL</option>
-										<option value="IDENTIFICACION PARA TITULAR MENOR">9-IDENTIFICACIÓN PARA TITULAR MENOR</option>
-										<option value="MATRICULA CONSULAR">10-MATRICULA CONSULAR</option>
-										<option value="TARJETA INAPAM">11-TARJETA INAPAM</option>
-										<option value="IFE 03">12-IFE 03</option>
-										<option value="IFE INCOMPLETA">13-IFE INCOMPLETA</option>
+									<select id="identif_titular_color" name="identif" tabindex="28">
+										<option value="0">0-NO PRESENTÓ</option>
+										<option value="1">1-COMPROBANTE IDENTIDAD VENCIDO</option>
+										<option value="2">2-DOCUMENTO NO VALIDO</option>
+										<option value="3">3-CREDENCIAL DE ELECTOR</option>
+										<option value="4">4-CARTILLA DEL SERVICIO MILITAR</option>
+										<option value="5">5-CÉDULA PROFESIONAL</option>
+										<option value="6">6-LICENCIA DE CONDUCIR</option>
+										<option value="7">7-PASAPORTE</option>
+										<option value="8">8-CARTA DE AUTORIDAD LOCAL</option>
+										<option value="9">9-IDENTIFICACIÓN PARA TITULAR MENOR</option>
+										<option value="10">10-MATRICULA CONSULAR</option>
+										<option value="11">11-TARJETA INAPAM</option>
+										<option value="12">12-IFE 03</option>
+										<option value="13">13-IFE INCOMPLETA</option>
 									</select></div>
 
 								<fieldset id="comprobante_fieldset">
@@ -290,36 +290,36 @@
 									
 									<label id="oportunidades">Oportunidades: </label>
 									<div id="oportunidades_txt">
-									<select id="oportunidades_color" name="			oportunidades_select" tabindex="29">
-										<option value="NO PRESENTO">0-NO PRESENTÓ</option>
-										<option value="COMPROBANTE VENCIDO">1-COMPROBANTE VENCIDO</option>
-										<option value="HOLOGRAMA">2-HOLOGRAMA (OP)</option>
-										<option value="RECIBO PAGO">3-RECIBO PAGO (OP)</option>
-										<option value="S1 CRUZ">4-S1 CRUZ (OP)</option>
+									<select id="oportunidades_color" name="oport" tabindex="29">
+										<option value="0">0-NO PRESENTÓ</option>
+										<option value="1">1-COMPROBANTE VENCIDO</option>
+										<option value="2">2-HOLOGRAMA (OP)</option>
+										<option value="3">3-RECIBO PAGO (OP)</option>
+										<option value="4">4-S1 CRUZ (OP)</option>
 									</select></div>
 
 									</br>
 
 									<label id="embarazo">Embarazo: </label>
 									<div id="embarazo_txt">
-									<select id="embarazo_color" name="			embarazo_select" tabindex="30">
-										<option value="NO PRESENTO">0-NO PRESENTÓ</option>
-										<option value="DOCUMENTO NO VALIDO">1-DOCUMENTO NO VALIDO</option>
-										<option value="CERTIFICADO DE EMBARAZO">2-CERTIFICADO DE EMBARAZO (ES)</option>
-										<option value="CERTIFICADO DE NACIMIENTO">3-CERTIFICADO DE NACIMIENTO</option>
-										<option value="CERTIFICADO NAC Y EMBARAZO">4-CERTIFICADO NAC Y EMBARAZO</option>
+									<select id="embarazo_color" name="embarazo" tabindex="30">
+										<option value="0">0-NO PRESENTÓ</option>
+										<option value="1">1-DOCUMENTO NO VALIDO</option>
+										<option value="2">2-CERTIFICADO DE EMBARAZO (ES)</option>
+										<option value="3">3-CERTIFICADO DE NACIMIENTO</option>
+										<option value="4">4-CERTIFICADO NAC Y EMBARAZO</option>
 									</select></div>
 
 									</br>
 
 									<label id="migrantes">Migrantes: </label>
 									<div id="migrantes_txt">
-									<select id="migrantes_color" name="			migrantes_select" tabindex="31">
-										<option value="NO PRESENTO">0-NO PRESENTÓ</option>
-										<option value="CARTA AVAL MUNICIPIO (MIG)">1-CARTA AVAL MUNICIPIO (MIG)</option>
-										<option value="CARTA CONSULADO (MIG)">2-CARTA CONSULADO (MIG)</option>
-										<option value="PASAPORTE ENTRADA/SALIDA">3-PASAPORTE ENTRADA/SALIDA</option>
-										<option value="COMPROBANTE VENCIDO">4-COMPROBANTE VENCIDO</option>
+									<select id="migrantes_color" name="migrante" tabindex="31">
+										<option value="0">0-NO PRESENTÓ</option>
+										<option value="1">1-CARTA AVAL MUNICIPIO (MIG)</option>
+										<option value="2">2-CARTA CONSULADO (MIG)</option>
+										<option value="3">3-PASAPORTE ENTRADA/SALIDA</option>
+										<option value="4">4-COMPROBANTE VENCIDO</option>
 									</select></div>
 									
 								</fieldset>
@@ -328,33 +328,33 @@
 
 									<label id="vigente_aun">Documento Vigente a 1 Año: </label>
 									<div id="vigente_aun_txt">
-									<select id="vigente_aun_color" name="			vigente_aun_select" tabindex="32">
-										<option value="NINGUNO">0-NINGUNO</option>
-										<option value="CERTIFICADO EMBARAZO">1-CERTIFICADO EMBARAZO</option>
-										<option value="CERTIFICADO NACIMIENTO">2-CERTIFICADO NACIMIENTO</option>
-										<option value="CONSTANCIA NO EXISTENCIA ACTA">3-CONSTANCIA NO EXISTENCIA ACTA</option>
+									<select id="vigente_aun_color" name="docano" tabindex="32">
+										<option value="0">0-NINGUNO</option>
+										<option value="1">1-CERTIFICADO EMBARAZO</option>
+										<option value="2">2-CERTIFICADO NACIMIENTO</option>
+										<option value="3">3-CONSTANCIA NO EXISTENCIA ACTA</option>
 									</select></div>
 
 									</br>
 
 									<label id="vigencia">Vigencia: </label>
-									<div id="vigencia_txt"><input id="vigencia_color" type="text" name="vigencias_form" size="20" maxlength="40" placeholder="AAAA-MM-DD" tabindex="33"></div>
+									<div id="vigencia_txt"><input id="vigencia_color" type="text" name="vigencia" size="20" maxlength="10" placeholder="AAAA-MM-DD" tabindex="33"></div>
 
 									</br>
 
 									<label id="doc_adicional">Documentos Adicionales: </label>
 									<div id="doc_adicional_txt">
-									<select id="doc_adicional_color" name="			doc_adicional_select" tabindex="34">
-										<option value="NINGUNO">0-NINGUNO</option>
-										<option value="ACTA DE DEFUNCION">1-ACTA DE DEFUNCIÓN</option>
-										<option value="ACTA DE DEF Y COMPROBANTE DE ESTUDIOS">2-ACTA DE DEF Y COMPROBANTE DE ESTUDIOS</option>
-										<option value="COMPROBANTE DE ESTUDIOS">3-COMPROBANTE DE ESTUDIOS</option>
+									<select id="doc_adicional_color" name="adicional" tabindex="34">
+										<option value="0">0-NINGUNO</option>
+										<option value="1">1-ACTA DE DEFUNCIÓN</option>
+										<option value="2">2-ACTA DE DEF Y COMPROBANTE DE ESTUDIOS</option>
+										<option value="3">3-COMPROBANTE DE ESTUDIOS</option>
 									</select></div>
 
 									</br>
 
 									<label id="comentarios">Observaciones:</label>
-									<div id="comentarios_txt"><input id="comentarios_color" type="text" name="comentarios_form" size="54" maxlength="100" tabindex="34"></div>
+									<div id="comentarios_txt"><input id="comentarios_color" type="text" name="comenta" size="100" maxlength="100" tabindex="34"></div>
 
 						</fieldset>	
 					</form>
