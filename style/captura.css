@@ -762,7 +762,7 @@ SECTION */
 }
 /*tipo de familiaaaaaaaaaaaaaaaaaaaaaa*/
 #tipo_familia{
-  padding-left: 4%;
+  margin-left: 4%;
 
 }
 
@@ -914,7 +914,7 @@ RIGTH SIDEEEEEEEEEEEEEEEEEE*/
 }
 #oportunidades_txt{
   display: inline-block;
-  margin-left: 10%;
+  margin-left: 8.5%;
 }
 #oportunidades_color{
   background-color: #afdeaf;
@@ -925,7 +925,7 @@ RIGTH SIDEEEEEEEEEEEEEEEEEE*/
 }
 #embarazo_txt{
   display: inline-block;
-  margin-left: 15.3%;
+  margin-left: 13.5%;
 }
 #embarazo_color{
   background-color: #afdeaf;
@@ -936,7 +936,7 @@ RIGTH SIDEEEEEEEEEEEEEEEEEE*/
 }
 #migrantes_txt{
   display: inline-block;
-  margin-left: 15.7%;
+  margin-left: 14%;
 }
 #migrantes_color{
   background-color: #afdeaf;
