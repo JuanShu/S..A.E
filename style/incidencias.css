@@ -516,9 +516,9 @@ SECTION */
 
   position: relative;
   display: inline-block;
-  width: 17%;
-  margin-top: 1.5%;
-  margin-left: 28%;
+  width: 15%;
+  margin-left: 25%;
+  margin-top: 30px;
 
 }
 
@@ -528,6 +528,7 @@ SECTION */
   display: inline-block;
   font-family: cursive;
   margin-left: 2%;
+  margin-top: 15%;
 }
 
 #tableinci {
@@ -538,10 +539,11 @@ SECTION */
 }
 
 #inci_pie{ 
-  position: relative;
-  display: inline-block;
+  position: absolute;
+  display: inline;
   color: #af0304;
-  margin-left: -16%;
+  margin-left: -13%;
+  margin-top: 18%;
   font-family: sans;
   font-style: bolder;
   font-size: 1.5em;
@@ -616,6 +618,9 @@ SECTION */
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 FOOTER*/
+.pie{
+  margin-top: 25px;
+}
 
 #engrandelogo {
 
